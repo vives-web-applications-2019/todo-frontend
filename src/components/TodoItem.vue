@@ -9,12 +9,7 @@
 
 <script>
 export default {
-  data: function () {
-    return {
-      title: 'title',
-      state: 'state'
-    }
-  }
+  props: ['title', 'state']
 }
 </script>
 
